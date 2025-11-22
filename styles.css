@@ -1,13 +1,20 @@
 /* Home Buckets */
 
 .green {
-	background: #115427;
-	color:white;
+background:#115427;
+color:white;
+height:164px;
+}
+
+.green-column {
+background:#115427;
+color:white;
 }
 
 .gray {
-	background: #eaeef0;
-	color:#626767;
+background:#C0C0C0;
+color:black;
+height:164px;
 }
 
 .bucket {
@@ -15,10 +22,146 @@
 }
 
 .bucket p {
-	/* margin: xxsmall 0*/
+  /* margin: xxsmall 0*/
 }
 
 .tile {
-	
+
 }
 
+.img{
+
+}
+
+/* about us page */
+
+.board-members{
+background:#115427;
+color:white;
+margin-top:40px;
+margin-bottom:30px;
+border-radius:100px;
+width:600px;
+font-size:15px
+}
+
+/* become a memeber page */
+
+.prices{
+background:#115427;
+color:white;
+border-radius:100px;
+width:190px;
+margin-left:2px !important;
+margin-top:10px;
+}
+
+.prices-img{
+height:315px !important;
+}
+
+.member-h{
+background:#115427;
+color:white !important;
+border-radius:100px;
+margin-top:20px !important;
+margin-bottom:40px !important;
+}
+
+.donation-fee{
+background:#115427;
+color:white;
+width:900px;
+height:460px;
+margin-left:150px;
+margin-bottom:30px !important;
+border-radius:30px;
+}
+
+.donation-img{
+margin-right:10px;
+margin-left:10px;
+color:white !important;
+}
+
+.donation-p{
+padding-left:20px;
+padding-top:10px;
+}
+
+.donation-p2{
+margin-top:-6px;
+margin-left:10px;
+padding-bottom:20px;
+color:white;
+}
+
+.donation-button{
+margin-top:-10px;
+margin-left:10px;
+width:140px;
+}
+
+.membership-prices{
+height:300px;
+}
+
+/* Header Css Below */
+
+.header-menu-button {
+padding-left: 10px !important;
+padding-right: 10px !important;
+border: 0px solid rgba(0, 0, 0, 0);
+border-radius: 5px !important;
+}
+
+.header-menu-button-drop {
+padding-left: 10px !important;
+padding-right: 10px !important;
+border: 0px solid rgba(0, 0, 0, 0);
+border-radius: 5px 5px 0px 0px !important;
+}
+
+.header-menu-button:hover, .header-menu-button-drop:hover {
+background-color: white;
+color: #115427;
+border: 2px white !important;
+}
+
+.wp-block-navigation__submenu-container{
+border: 0px !important;
+border-radius: 0px 0px 5px 5px !important;
+background-color: white !important;
+color: #115427 !important;
+}
+
+/* Race Post Type */
+p.acf-view__sponsors-label, p.acf-view__race-map-label, p.acf-view__race-day, p.acf-view__top-3-males-label, p.acf-view__top-3-females-label, .race-map h1, .race-map h2 {
+font-family:Poppins, sans-serif;
+color:#115527;
+}
+
+p.acf-view__top-3-males-label, p.acf-view__top-3-females-label {
+display:block;
+width:100%;
+background:yellow;
+font-size:18pt;
+}
+
+p.acf-view__sponsors-label, p.acf-view__race-map-label, p.acf-view__race-day {
+font-size:36pt;
+} 
+
+
+:root :where(p) .acf-view__race-day {
+font-size:36pt;
+}
+
+.race-map h1 {
+font-size:48pt!important;
+line-height:1.5em!important;
+}
+
+.race-map h2 {
+font-size:36pt!important;
+}
