@@ -188,3 +188,20 @@ font-size:24pt;
 text-decoration:underline;
 font-weight:bold;
 }
+
+.page-template-wp-custom-template-past-races-2 .wp-block-post-excerpt__more-link {
+background:#007E3F;
+border-radius:10px;
+text-align:center;
+display:block;
+padding:5px 10px;
+width:50%;
+color:white;
+margin:auto;
+}
+
+page-template-wp-custom-template-past-races-2 .wp-block-post-excerpt__more-link:hover { 
+text-decoration:underline;
+background:yellow;
+color:black;
+}
