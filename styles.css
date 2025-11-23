@@ -136,7 +136,7 @@ color: #115427 !important;
 }
 
 /* Race Post Type */
-p.acf-view__sponsors-label, p.acf-view__race-map-label, p.acf-view__race-day, p.acf-view__top-3-males-label, p.acf-view__top-3-females-label, .race-map h1, .race-map h2 {
+p.acf-view__sponsors-label, p.acf-view__race-map-label, p.acf-view__results-url-field, p.acf-view__race-day, p.acf-view__top-3-males-label, p.acf-view__top-3-females-label, .race-map h1, .race-map h2 {
 font-family:Poppins, sans-serif;
 color:#115527;
 }
@@ -164,4 +164,24 @@ line-height:1.5em!important;
 
 .race-map h2 {
 font-size:36pt!important;
+}
+
+.acf-view__results-url {
+text-align:center;
+}
+
+
+a.acf-view__results-url-field {
+color:blue;
+text-decoration:none;
+background-color:lightBlue;
+font-size:14pt;
+}
+
+a.acf-view__results-url-field:hover {
+text-decoration:underline;
+}
+
+p.acf-view__sponsors-label {
+font-size:24pt;
 }
