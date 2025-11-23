@@ -184,3 +184,7 @@ text-decoration:underline;
 p.acf-view__sponsors-label {
 font-size:24pt;
 }
+.race-map th {
+text-decoration:underline;
+font-weight:bold;
+}
