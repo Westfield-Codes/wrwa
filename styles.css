@@ -145,7 +145,7 @@ p.acf-view__top-3-males-label, p.acf-view__top-3-females-label {
 display:block;
 width:100%;
 background:yellow;
-font-size:18pt;
+font-size:18pt;z
 }
 
 p.acf-view__sponsors-label, p.acf-view__race-map-label, p.acf-view__race-day {
@@ -158,8 +158,7 @@ font-size:36pt;
 }
 
 .race-map h1 {
-font-size:48pt!important;
-line-height:1.5em!important;
+display:none!important;
 }
 
 .race-map h2 {
