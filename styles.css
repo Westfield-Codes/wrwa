@@ -185,13 +185,6 @@ font-family:Poppins, sans-serif;
 color:#115527;
 }
 
-p.acf-view__top-3-males-label, p.acf-view__top-3-females-label {
-display:block;
-width:100%;
-background:yellow;
-font-size:18pt;
-}
-
 p.acf-view__sponsors-label, p.acf-view__race-map-label, p.acf-view__race-day, p.acf-view__top-sponsor-label {
 font-size:36pt;
 } 
@@ -246,6 +239,53 @@ page-template-wp-custom-template-past-races-2 .wp-block-post-excerpt__more-link:
 text-decoration:underline;
 background:yellow;
 color:black;
+}
+
+
+.acf-view__classic-duo-teams-label,
+.acf-view__total-racers-label,
+.acf-view__expert-racers-label,
+.acf-view__top-3-females-label,
+.acf-view__classic-racers-label,.acf-view__total-racers-field,
+.acf-view__expert-racers-field,
+.acf-view__top-3-females-field,
+.acf-view__classic-racers-field,
+.acf-view__classic-duo-teams-field {
+font-family:Poppins, sans-serif;
+color:#115527;
+font-weight:bold;
+float:left;
+line-height:.7em!important;
+}
+
+.acf-view__classic-duo-teams-label,
+.acf-view__total-racers-label,
+.acf-view__expert-racers-label,
+.acf-view__top-3-females-label,
+.acf-view__classic-racers-label {
+clear:left;
+margin-right:50px;
+}
+
+
+.acf-view__total-racers,
+.acf-view__expert-racers,
+.acf-view__top-3-females,
+.acf-view__classic-racers,
+.acf-view__classic-duo-teams {
+clear:both;
+}
+
+p.acf-view__top-3-males-label {
+clear:both;
+font-size:36px;
+color:#115527;
+margin-top:3em;
+}
+
+.acf-view__results-url-field {
+font-size:18pt;
+font-weight:bold;
 }
 
 /* Racer Information page*/
