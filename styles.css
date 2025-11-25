@@ -202,17 +202,21 @@ display:none!important;
 font-size:36pt!important;
 }
 
-.acf-view__results-url {
+.acf-view__results-url, a.acf-view__race-attachment {
 text-align:center;
 }
 
 
-a.acf-view__results-url-field {
+a.acf-view__results-url-field, a.acf-view__race-attachment {
 text-decoration:none;
 font-size:15pt;
+font-weight:bold;
 }
 
-a.acf-view__results-url-field:hover {
+a.acf-view__race-attachment {
+margin-left:20px;
+}
+a.acf-view__results-url-field:hover, a.acf-view__race-attachment:hover {
 text-decoration:underline;
 }
 
