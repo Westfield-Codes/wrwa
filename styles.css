@@ -1,3 +1,34 @@
+/* Typography & Colors*/
+
+body.page-template-default h1.wp-block-post-title, body.page-template h1.wp-block-post-title, body.post-type-archive h1.wp-block-post-title {
+   border-radius:100px;
+   padding:10px 100px;
+   width:fit-content!important;
+   }
+
+body.page-id-520 .wp-block-group .has-border-color {
+  padding:50px;
+  padding-bottom:50px!Important;
+ border-radius:25px;
+background-color:#fff!important;
+}
+
+body.page-id-520 main .wp-block-group.has-border-color {
+  background:#f4f4f4!important;
+}
+
+/* Events */
+@media only screen and (min-width: 1000px) {
+.tribe-events-view {
+margin-top:-100px;
+}
+}
+
+body.home .tribe-events-view {
+margin-top:0!important;
+}
+
+
 /* Home Buckets */
 
 .green {
@@ -108,6 +139,19 @@ height:300px;
 
 /* Header Css Below */
 
+@media only screen and (min-width: 1120px) {
+
+body.home .superbthemes-navigation-two-columns {
+position:fixed!Important;
+width:100%!important;
+}
+
+body.home .entry-content {
+margin-top:150px!important;
+}
+
+}
+
 .header-menu-button {
 padding-left: 10px !important;
 padding-right: 10px !important;
@@ -171,10 +215,8 @@ text-align:center;
 
 
 a.acf-view__results-url-field {
-color:blue;
 text-decoration:none;
-background-color:lightBlue;
-font-size:14pt;
+font-size:15pt;
 }
 
 a.acf-view__results-url-field:hover {
@@ -205,3 +247,5 @@ text-decoration:underline;
 background:yellow;
 color:black;
 }
+
+/* Racer Information page*/
