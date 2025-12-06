@@ -370,7 +370,16 @@ border: 0px !important;
 border-radius: 5px;
 }
 }
+
+/* Races List Page */
+p.acf-view__race-day {
+font-size:18pt!important;
+margin-top:0!important;
+padding-top:0!important;
+}
+
 /* Race Post Type */
+
 p.acf-view__sponsors-label, p.acf-view__race-map-label, p.acf-view__results-url-field, p.acf-view__race-day, p.acf-view__top-3-males-label, p.acf-view__top-3-females-label, p.acf-view__top-sponsor-label, .race-map h1, .race-map h2 {
 font-family:Poppins, sans-serif;
 color:#115527;
