@@ -11,6 +11,8 @@ body.page-id-520 .wp-block-group .has-border-color {
   padding-bottom:50px!Important;
  border-radius:25px;
 background-color:#fff!important;
+align-items:right!Important;
+flex-basis: 10%!mportant;
 }
 
 body.page-id-520 main .wp-block-group.has-border-color {
@@ -28,6 +30,11 @@ body.home .tribe-events-view {
 margin-top:0!important;
 }
 
+.wp-container-core-buttons-is-layout-a89b3969 .wp-block-button a.wp-block-button__link:hover {
+    font-weight:bold;
+    color:#F8C449!important;
+    background-color:#115527!important; 
+}
 
 /* Home Buckets */
 
@@ -62,6 +69,20 @@ height:164px;
 
 .img{
 
+}
+
+/* Protect the Watershed */
+
+.wp-container-core-group-is-layout-6c531013 .wp-block-group-is-layout-flex .wp-block-button {
+display: flex!important;
+  justify-content: flex-end!important;
+}
+
+.wp-container-core-group-is-layout-6c531013 .wp-block-group-is-layout-flex .wp-block-button a:hover {
+background-color:gray!important;
+ font-weight:bold;
+ color:white!important;
+ background-color:#115527!important;
 }
 
 /* about us page */
@@ -136,49 +157,235 @@ width:140px;
 .membership-prices{
 height:300px;
 }
+/* Footer */
+
+/* Marks CSS DONT MESS WITH*/
+
+
+/* Contact Form 7 Styles */
+.wpcf7 {
+background-color: white;
+border: 2px solid #125427;
+border-radius: 20px;
+}
+.wpcf7-form {
+margin-left:25px;
+margin-right:25px;
+margin-top:25px;
+margin-bottom:25px;
+}
+.wpcf7-textarea{
+width: 85%;
+margin-top:5px;
+margin-bottom:5px;
+border: 2px solid #8B928C;
+border-radius: 5px;
+padding:5px;
+}
+.wpcf7 input:not(.wpcf7-submit) {
+width: 50%;
+margin-top: 5px;
+margin-bottom: 5px;
+border: 2px solid #8B928C;
+border-radius: 5px;
+padding:5px;
+}
+.wpcf7-submit{
+background-color:#017E3F;
+color: white;
+border:2px solid #125427;
+border-radius: 5px;
+padding:5px;
+}
+
+
 
 /* Header Css Below */
-
-@media only screen and (min-width: 1120px) {
-
-body.home .superbthemes-navigation-two-columns {
-position:fixed!Important;
-width:100%!important;
+.header-sticks {
+box-shadow: 0 0 50px rgba(17, 84, 39, 0.9);
 }
-
-body.home .entry-content {
-margin-top:150px!important;
-}
-
+img.wp-image-946:hover {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
 }
 
 .header-menu-button {
 padding-left: 10px !important;
 padding-right: 10px !important;
-border: 0px solid rgba(0, 0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 0);
 border-radius: 5px !important;
 }
 
 .header-menu-button-drop {
 padding-left: 10px !important;
 padding-right: 10px !important;
-border: 0px solid rgba(0, 0, 0, 0);
+border: 1px solid rgba(0, 0, 0, 0);
 border-radius: 5px 5px 0px 0px !important;
 }
 
-.header-menu-button:hover, .header-menu-button-drop:hover {
+.header-menu-button:not(ul):hover, .header-menu-button-drop:not(ul):hover {
 background-color: white;
 color: #115427;
-border: 2px white !important;
+border: 1px solid white !important;
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.header-menu-button ul, .header-menu-button-drop ul{
+border: 0px solid white !important;
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+
+.submenu-buttons:hover{
+border: 0px solid white !important;
+background-color: #e0e0e0 !important;
 }
 
 .wp-block-navigation__submenu-container{
 border: 0px !important;
-border-radius: 0px 0px 5px 5px !important;
+border-radius: 0px 5px 5px 5px !important;
 background-color: white !important;
 color: #115427 !important;
 }
 
+header ul li ul {
+border: 0px !important;
+border-radius: 0px 5px 5px 5px !important;
+}
+
+.open-on-hover-click a{
+border: 0px solid !important;
+border-radius: 5px 5px 5px 5px !important;
+}
+
+.header-menu-button-drop ul {
+border: 4px solid white !important;
+border-radius: 0px 5px 5px 5px !important;
+}
+
+li.has-superbfont-medium-font-size.wp-block-navigation-item.submenu-buttons.wp-block-navigation-link {
+border: 0px solid !important;
+border-radius: 5px !important;
+}
+
+a.wp-block-button__link.has-contrast-light-color.has-text-color.has-background.has-link-color.has-text-align-center.wp-element-button:hover{
+box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 1500px) {
+.wp-container-core-group-is-layout-07abef02 > *:not(.alignleft):not(.alignright):not(.alignfull) {
+    max-width: 100%;
+    margin-left: 2vw !important;
+    margin-right: 2vw !important;
+}
+}
+@media only screen and (max-width: 1127px) {
+.header-row {
+max-width: 90% !important;
+}
+}
+@media only screen and (max-width: 986px) {
+.header-row {
+max-width: 95% !important;
+}
+.header-group {
+min-height: 130px !important;
+height: 130px !important;
+padding-top: 15px !important;
+padding-bottom: 15px !important;
+}
+.header-logo-image img {
+width: 99px !important;
+height: 99px !important;
+}
+.contact-us-button-header{
+padding-left: 1vw !important;
+}
+}
+@media only screen and (max-width: 905px) {
+.header-group {
+padding-left: 15px !important;
+padding-right: 15px !important;
+}
+.header-row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+html {
+font-size: 15px !important;
+}
+}
+@media only screen and (max-width: 855px) {
+.header-group{
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+.header-row{
+gap: 1vw !important;
+}
+}
+@media only screen and (max-width: 810px) {
+.contact-us-button-header a{
+padding-left: 15px !important;
+padding-right: 15px !important;
+}
+.wp-block-navigation__container li, .contact-us-button-header a{
+font-size: 16px !important;
+}
+.header-group {
+min-height: 104px !important;
+height: 104px !important;
+padding-top: 12px !important;
+padding-bottom: 12px !important;
+}
+.header-logo-image img {
+width: 79px !important;
+height: 79px !important;
+}
+}
+@media only screen and (max-width: 720px) {
+.contact-us-button-header,
+.wp-block-navigation__container {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+.header-logo-image img {
+min-width: 79px !important;
+min-height: 79px !important;
+}
+.wp-container-core-group-is-layout-4e3fa81d > *:not(.alignleft):not(.alignright):not(.alignfull) {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+}
+@media only screen and (max-width: 600px) {
+.wp-container-core-group-is-layout-4e3fa81d > *:not(.alignleft):not(.alignright):not(.alignfull) {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+.wp-block-navigation__container li, .contact-us-button-header a{
+font-size: 30px !important;
+}
+.wp-block-navigation .wp-block-page-list, .wp-block-navigation__container, .wp-block-navigation__responsive-close, .wp-block-navigation__responsive-container, .wp-block-navigation__responsive-container-content, .wp-block-navigation__responsive-dialog {
+gap: 0px;
+}
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container {
+padding-top: 0px !important;
+}
+.wp-block-navigation__container li ul li a, .wp-block-navigation__container > li a, .contact-us-button-header{
+padding: 1vh !important;
+}
+.contact-us-button-header {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.header-menu-button-drop > a {
+    display: none !important;
+}
+.wp-block-navigation__container li ul li a:hover, .wp-block-navigation__container > li a:hover{
+background-color: #e0e0e0 !important;
+border: 0px !important;
+border-radius: 5px;
+}
+}
 /* Race Post Type */
 p.acf-view__sponsors-label, p.acf-view__race-map-label, p.acf-view__results-url-field, p.acf-view__race-day, p.acf-view__top-3-males-label, p.acf-view__top-3-females-label, p.acf-view__top-sponsor-label, .race-map h1, .race-map h2 {
 font-family:Poppins, sans-serif;
