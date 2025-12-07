@@ -101,6 +101,21 @@ margin-top:10px;
 height:315px !important;
 }
 
+body.page-id-369 a.wp-element-button {
+border-radius:20px!important;
+font-size:.8em!important;
+}
+
+body.page-id-369 a.wp-element-button:hover, body.page-id-520 a.wp-element-button:hover {
+   background:#FCB900!important;
+color:#000!important;
+}
+
+
+body.page-id-369 h2.wp-block-heading {
+padding:1em 0!important;
+}
+
 .member-h{
 background:#115427;
 color:white !important;
@@ -385,6 +400,8 @@ border-radius: 5px;
 }
 }
 
+/* Racer info page */
+body.page-id-520 
 /* Races List Page */
 p.acf-view__race-day {
 font-size:18pt!important;
@@ -537,4 +554,3 @@ font-size:30px;
 background:linear-gradient(to bottom, #115427 65%, transparent);
 color:white;
 }
-
