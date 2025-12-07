@@ -26,11 +26,17 @@ display:none!important;
 body.single-tribe_events .tribe-tickets__rsvp-actions {
 float:right!important;
 width:200px!important;
-margin-top:-100px!important;
 }
+
+@media only screen and (min-width: 1000px) {
 
 body.single-tribe_events #rsvp-now {
 margin-top:-50px!important;
+}
+body.single-tribe_events .tribe-tickets__rsvp-actions {
+margin-top:-100px!important;
+padding:0!important;
+}
 }
 
 body.single-tribe_events .tribe-tickets__rsvp {
@@ -46,7 +52,14 @@ display:none!important;
 .tribe-events-view {
 margin-top:-75px;
 }
+}
 
+@media only screen and (max-width: 999px) {
+.tribe-tickets__rsvp-actions-wrapper {
+  padding-top:0px!important;
+ margin-top:-100px!important;
+}
+}
 
 .tribe-events-widget-events-list__header h2 {
    font-size:16pt!important;
@@ -56,7 +69,7 @@ margin-top:-75px;
 body.home .tribe-events-view {
 margin-top:0!important;
 }
-}
+
 
 /* Home Buckets */
 
@@ -78,7 +91,7 @@ height:164px;
 }
 
 .bucket {
-	
+    
 }
 
 .bucket p {
