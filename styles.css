@@ -18,11 +18,16 @@ body.page-id-520 main .wp-block-group.has-border-color {
 }
 
 /* Events */
+
+.tribe-compatibility-container {
+display:none!important;
+}
+
 @media only screen and (min-width: 1000px) {
 .tribe-events-view {
 margin-top:-100px;
 }
-}
+
 
 .tribe-events-widget-events-list__header h2 {
    font-size:16pt!important;
@@ -32,7 +37,7 @@ margin-top:-100px;
 body.home .tribe-events-view {
 margin-top:0!important;
 }
-
+}
 
 /* Home Buckets */
 
@@ -251,9 +256,10 @@ border: 0px solid !important;
 border-radius: 5px !important;
 }
 
-a.wp-block-button__link.has-contrast-light-color.has-text-color.has-background.has-link-color.has-text-align-center.wp-element-button:hover{
+a.wp-block-button__link.has-contrast-light-color.has-text-color.has-background.has-link-color.has-text-align-center.wp-element-button:hover {
 box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
+
 @media only screen and (max-width: 1500px) {
 .wp-container-core-group-is-layout-07abef02 > *:not(.alignleft):not(.alignright):not(.alignfull) {
     max-width: 100%;
@@ -261,11 +267,13 @@ box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
     margin-right: 2vw !important;
 }
 }
+
 @media only screen and (max-width: 1127px) {
 .header-row {
 max-width: 90% !important;
 }
 }
+
 @media only screen and (max-width: 986px) {
 .header-row {
 max-width: 95% !important;
@@ -280,10 +288,12 @@ padding-bottom: 15px !important;
 width: 99px !important;
 height: 99px !important;
 }
+
 .contact-us-button-header{
 padding-left: 1vw !important;
 }
 }
+
 @media only screen and (max-width: 905px) {
 .header-group {
 padding-left: 15px !important;
@@ -297,6 +307,7 @@ html {
 font-size: 15px !important;
 }
 }
+
 @media only screen and (max-width: 855px) {
 .header-group{
 padding-left: 0px !important;
@@ -306,6 +317,7 @@ padding-right: 0px !important;
 gap: 1vw !important;
 }
 }
+
 @media only screen and (max-width: 810px) {
 .contact-us-button-header a{
 padding-left: 15px !important;
@@ -325,6 +337,7 @@ width: 79px !important;
 height: 79px !important;
 }
 }
+
 @media only screen and (max-width: 720px) {
 .contact-us-button-header,
 .wp-block-navigation__container {
@@ -340,6 +353,7 @@ min-height: 79px !important;
     margin-right: 10px !important;
 }
 }
+
 @media only screen and (max-width: 600px) {
 .wp-container-core-group-is-layout-4e3fa81d > *:not(.alignleft):not(.alignright):not(.alignfull) {
     margin-left: 20px !important;
@@ -503,5 +517,24 @@ background:#115427;
 color:white;
 border-radius:20px;
 padding:20px;
+}
+
+.title-swoosh{
+Background-image: linear-gradient(-4deg, #ffff 23%, transparent 30%);
+height:554px;
+margin-top:-557px;
+}
+
+.memberships{
+background:linear-gradient(to top, #115427 20%, transparent);
+color:white;
+height:600px;
+width:500px;
+border-radius:15px;
+font-size:30px;
+}
+.memberships-h{
+background:linear-gradient(to bottom, #115427 65%, transparent);
+color:white;
 }
 
