@@ -19,8 +19,23 @@ body.page-id-520 main .wp-block-group.has-border-color {
 
 /* Events */
 
+#rsvp-now {
+margin-top:-75px!Important;
+}
+body.tribe_events-template-default .tribe-events-event-meta, body.tribe_events-template-default .tribe-events-meta-group-details, body.tribe_events-template-default .tribe-block__venue {
+display:none!important;
+}
+
+body.tribe_events-template-default .tribe-block__events-link {
+margin-top:-50px!important;
+}
+
 .tribe-compatibility-container {
 display:none!important;
+}
+
+body.page-id-520 .tribe-compatibility-container {
+display:block!important;
 }
 
 body.home .tribe-compatibility-container {
