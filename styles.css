@@ -48,6 +48,7 @@ margin-top:0!important;
 body.home .wp-container-core-buttons-is-layout-a89b3969 a.wp-block-button__link:hover {
 background:white!important;
 }
+
 .green {
 background:#115427;
 color:white;
@@ -65,9 +66,15 @@ color:black;
 height:164px;
 }
 
-.bucket {
-	
+body.home .wp-container-core-group-is-layout-07abef02  .has-background h2 {
+   text-align:right!important;
 }
+
+body.home .wp-container-core-group-is-layout-07abef02  .has-background h2 a:hover {
+     color:#FCB900!important;
+text-decoration:none!important;
+} 
+
 
 .bucket p {
   /* margin: xxsmall 0*/
