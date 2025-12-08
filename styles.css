@@ -529,17 +529,12 @@ font-weight:bold;
 /* Protect the watershed page*/
 
 
-.protect-watershed{
-background:#115427;
-color:white;
-border-radius:20px;
-padding:20px;
+body.page-id-1362 a.wp-block-button__link {
 }
 
-.title-swoosh{
-Background-image: linear-gradient(-4deg, #ffff 23%, transparent 30%);
-height:554px;
-margin-top:-557px;
+body.page-id-1362 a.wp-block-button__link:hover {
+   background:#115427!important;
+   color:white!important;
 }
 
 .memberships{
