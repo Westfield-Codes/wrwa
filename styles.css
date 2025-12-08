@@ -19,47 +19,15 @@ body.page-id-520 main .wp-block-group.has-border-color {
 
 /* Events */
 
-body.single-tribe_events .tribe-events-single-section.tribe-events-event-meta, body.single-tribe_events .tribe-block__venue {
-display:none!important;
-}
-
-body.single-tribe_events .tribe-tickets__rsvp-actions {
-float:right!important;
-width:200px!important;
-}
-
-@media only screen and (min-width: 1000px) {
-
-body.single-tribe_events #rsvp-now {
-margin-top:-50px!important;
-}
-body.single-tribe_events .tribe-tickets__rsvp-actions {
-margin-top:-100px!important;
-padding:0!important;
-}
-}
-
-body.single-tribe_events .tribe-tickets__rsvp {
-margin:0!important;
-padding:0!important;
-}
-
 .tribe-compatibility-container {
 display:none!important;
 }
 
 @media only screen and (min-width: 1000px) {
 .tribe-events-view {
-margin-top:-75px;
-}
+margin-top:-100px;
 }
 
-@media only screen and (max-width: 999px) {
-.tribe-tickets__rsvp-actions-wrapper {
-  padding-top:0px!important;
- margin-top:-100px!important;
-}
-}
 
 .tribe-events-widget-events-list__header h2 {
    font-size:16pt!important;
@@ -69,10 +37,13 @@ margin-top:-75px;
 body.home .tribe-events-view {
 margin-top:0!important;
 }
-
+}
 
 /* Home Buckets */
 
+body.home .wp-container-core-buttons-is-layout-a89b3969 a.wp-block-button__link:hover {
+background:white!important;
+}
 .green {
 background:#115427;
 color:white;
@@ -91,7 +62,7 @@ height:164px;
 }
 
 .bucket {
-    
+	
 }
 
 .bucket p {
@@ -138,9 +109,8 @@ border-radius:20px!important;
 font-size:.8em!important;
 }
 
-body.page-id-369 a.wp-element-button:hover, body.page-id-520 a.wp-element-button:hover {
-   background:#FCB900!important;
-color:#000!important;
+body.page-id-369 .wp-block-button a.wp-element-button:hover, body.page-id-520 .wp-block-button a.wp-block-button__link:hover  {
+   background:#007e3f!important;
 }
 
 
@@ -432,8 +402,6 @@ border-radius: 5px;
 }
 }
 
-/* Racer info page */
-body.page-id-520 
 /* Races List Page */
 p.acf-view__race-day {
 font-size:18pt!important;
@@ -575,7 +543,7 @@ margin-top:-557px;
 }
 
 .memberships{
-background:linear-gradient(to top, #115427 20%, transparent);
+background:linear-gradient(to top, #115427 0%,black );
 color:white;
 height:600px;
 width:500px;
@@ -584,5 +552,5 @@ font-size:30px;
 }
 .memberships-h{
 background:linear-gradient(to bottom, #115427 65%, transparent);
-color:white;
+
 }
