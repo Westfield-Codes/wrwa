@@ -240,6 +240,10 @@ img.wp-image-946:hover {
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
 }
 
+.header_facebook_button:hover {
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
 .header-menu-button {
 padding-left: 10px !important;
 padding-right: 10px !important;
@@ -311,13 +315,13 @@ box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 }
 
-@media only screen and (max-width: 1127px) {
+@media only screen and (max-width: 1204px) {
 .header-row {
 max-width: 90% !important;
 }
 }
 
-@media only screen and (max-width: 986px) {
+@media only screen and (max-width: 1063px) {
 .header-row {
 max-width: 95% !important;
 }
@@ -337,7 +341,7 @@ padding-left: 1vw !important;
 }
 }
 
-@media only screen and (max-width: 905px) {
+@media only screen and (max-width: 1010px) {
 .header-group {
 padding-left: 15px !important;
 padding-right: 15px !important;
@@ -351,7 +355,7 @@ font-size: 15px !important;
 }
 }
 
-@media only screen and (max-width: 855px) {
+@media only screen and (max-width: 960px) {
 .header-group{
 padding-left: 0px !important;
 padding-right: 0px !important;
@@ -361,13 +365,20 @@ gap: 1vw !important;
 }
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 911px) {
 .contact-us-button-header a{
 padding-left: 15px !important;
 padding-right: 15px !important;
 }
 .wp-block-navigation__container li, .contact-us-button-header a{
 font-size: 16px !important;
+}
+.wp-block-social-link-anchor{
+font-size:25px !important;
+}
+.wp-block-social-links-is-layout-flex{
+margin-right: 0.25vw !important;
+margin-left: 0.25vw !important;
 }
 .header-group {
 min-height: 104px !important;
@@ -381,9 +392,8 @@ height: 79px !important;
 }
 }
 
-@media only screen and (max-width: 720px) {
-.contact-us-button-header,
-.wp-block-navigation__container {
+@media only screen and (max-width: 784px) {
+.contact-us-button-header, wp-block-navigation{
     margin-left: auto !important;
     margin-right: 0 !important;
 }
@@ -397,6 +407,7 @@ min-height: 79px !important;
 }
 }
 
+/* Header Mobile */
 @media only screen and (max-width: 600px) {
 .wp-container-core-group-is-layout-4e3fa81d > *:not(.alignleft):not(.alignright):not(.alignfull) {
     margin-left: 20px !important;
