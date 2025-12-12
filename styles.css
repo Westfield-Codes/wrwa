@@ -18,7 +18,10 @@ body.page-id-520 main .wp-block-group.has-border-color {
 }
 
 /* Events */
-
+.tribe-events-calendar-list__event-featured-image, .tribe-events-event-image img{
+border: 0px solid;
+border-radius:10px;
+}
 #rsvp-now {
 margin-top:-75px!Important;
 }
@@ -401,14 +404,21 @@ height: 79px !important;
 min-width: 79px !important;
 min-height: 79px !important;
 }
-.wp-container-core-group-is-layout-4e3fa81d > *:not(.alignleft):not(.alignright):not(.alignfull) {
-    margin-left: 10px !important;
-    margin-right: 10px !important;
+
+
+.header-navigation:not(.header-navigation:last-child) {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
+.wp-block-social-links {
+    margin-left: auto;
+}
+
 }
 
 /* Header Mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 599px) {
 .wp-container-core-group-is-layout-4e3fa81d > *:not(.alignleft):not(.alignright):not(.alignfull) {
     margin-left: 20px !important;
     margin-right: 20px !important;
