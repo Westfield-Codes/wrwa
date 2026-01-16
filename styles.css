@@ -1,3 +1,8 @@
+/* Donation Page */
+img {
+border-radius: 8px !important;
+}
+
 /* Typography & Colors*/
 
 body.page-template-default h1.wp-block-post-title, body.page-template h1.wp-block-post-title, body.post-type-archive h1.wp-block-post-title {
@@ -194,9 +199,6 @@ height:300px;
 }
 /* Footer */
 
-/* Marks CSS DONT MESS WITH*/
-
-
 /* Contact Form 7 Styles */
 .wpcf7 {
 background-color: white;
@@ -240,7 +242,7 @@ padding:5px;
 box-shadow: 0 0 50px rgba(17, 84, 39, 0.9);
 }
 img.wp-image-946:hover {
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+filter: drop-shadow(0 0 35px rgba(0, 0, 0, 0.5));
 }
 
 .header_facebook_button:hover {
@@ -481,7 +483,7 @@ font-size:36pt!important;
 }
 
 .acf-view__results-url, a.acf-view__race-attachment {
-text-align:center;
+
 }
 
 
