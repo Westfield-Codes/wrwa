@@ -1,3 +1,29 @@
+/* Home Page */
+@media only screen and (max-width: 900px) {
+.who-are-we-home {
+max-width: 90% !important;
+font-size:16px !important;
+}
+.who-are-we-home h2, .who-are-we-home p{ 
+margin: auto !important; 
+padding: 0 !important;
+max-width: 95% !important;
+}
+.who-are-we-home p{
+margin-top:10px !important;
+}
+.hero-button-home{
+max-width: 100% !important;
+}
+.home-hero{
+min-height: 500px !important;
+}
+}
+
+.home-hero img{
+border-radius: 0px !important;
+}
+
 /* Iframe */
 iframe {width:100%;}
 
@@ -122,7 +148,7 @@ color:white;
 margin-top:40px;
 margin-bottom:30px;
 border-radius:100px;
-width:600px;
+max-width:600px;
 font-size:15px
 }
 
@@ -579,6 +605,14 @@ font-weight:bold;
 
 
 /* Protect the watershed page*/
+@media only screen and (max-width: 980px) {
+.wp-container-core-group-is-layout-6c531013 {
+ flex-wrap: wrap !important;
+}
+.protect-the-watershed-rows {
+display: inline !important;
+}
+}
 
 
 body.page-id-1362 a.wp-block-button__link {
@@ -600,4 +634,13 @@ font-size:30px;
 .memberships-h{
 background:linear-gradient(to bottom, #115427 65%, transparent);
 
+}
+
+@media only screen and (max-width: 980px) {
+.wp-container-core-group-is-layout-6a1e1ffc {
+    flex-wrap: wrap !important;
+}
+.wp-container-core-group-is-layout-7f1efb96 {
+    flex-wrap: wrap !important;
+}
 }
