@@ -233,6 +233,7 @@ height:300px;
 background-color: white;
 border: 2px solid #125427;
 border-radius: 20px;
+padding-right:15px;
 }
 .wpcf7-form {
 margin-left:25px;
@@ -241,7 +242,7 @@ margin-top:25px;
 margin-bottom:25px;
 }
 .wpcf7-textarea{
-width: 85%;
+width: 100%;
 margin-top:5px;
 margin-bottom:5px;
 border: 2px solid #8B928C;
@@ -249,7 +250,7 @@ border-radius: 5px;
 padding:5px;
 }
 .wpcf7 input:not(.wpcf7-submit) {
-width: 50%;
+width: 100%;
 margin-top: 5px;
 margin-bottom: 5px;
 border: 2px solid #8B928C;
@@ -485,6 +486,14 @@ p.acf-view__race-day {
 font-size:18pt!important;
 margin-top:0!important;
 padding-top:0!important;
+}
+.races-posts-group a{
+font-size: 30px !important;
+margin: 8px !important;
+font-weight: normal !important;
+}
+.races-posts-group h2 a{
+font-size: 40px !important;
 }
 
 /* Race Post Type */
