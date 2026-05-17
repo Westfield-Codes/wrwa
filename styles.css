@@ -653,3 +653,36 @@ background:linear-gradient(to bottom, #115427 65%, transparent);
     flex-wrap: wrap !important;
 }
 }
+
+.membership-form{
+  /* Offset-x | Offset-y | Blur-radius | Spread-radius | Color */
+  box-shadow: 0 4px 35px 10px rgba(17, 84, 39, 0.2);
+  
+  /* Optional styling to make it look clean */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+@media (max-width: 1005px) {
+  /* Shows the mobile menu toggle button (hamburger icon) */
+  .wp-block-navigation__responsive-container-open {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Hides the default desktop navigation container */
+  .wp-block-navigation__responsive-container {
+    display: none !important;
+  }
+}
+
+.acf-view__sponsors-image{
+width:800px !important;
+hieght:550px !important;
+}
+
+.race-results acf-view acf-view--id--6921fbb829a09 acf-view--object-id--2398{
+border-color:red !important;
+border:5px !important;
+}
